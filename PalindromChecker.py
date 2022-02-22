@@ -1,9 +1,9 @@
-tekst = input("wpisz text aby sprawdzić czy jest palindromem: ")
+tekst = input("type text to check if it is a palindrome: ")
 
 if tekst == tekst[::-1]:
-    print('tekst jest palindromem')
+    print('text is a palindrome')
 else:
-    print('tekst nie jest palindromem')
+    print('text isnt palindrome')
 
 
 
